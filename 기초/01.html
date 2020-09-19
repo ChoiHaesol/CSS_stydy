@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>html기초 1강 - block and inline</title>
+    <style>
+        h1 {background: yellow;}
+        h2 {background: yellowgreen;}
+        p {background: orange;}
+        div {background: red; width: 500px;height: 500px; margin: 50px 100px;}
+        ul {background: skyblue;}
+        ul li {background: purple;}
+        .box {width: 300px; height: 300px;background: yellow; margin: 80px;padding: 50px; box-sizing: border-box; text-align: center; display: inline-block}
+        .change {width: 500px; height: 100px; background: #cea3a3; display: block; text-align: center; line-height: 100px;}
+    </style>
+</head>
+<body>
+    <!--블록 속성-->
+    <h1>제목1</h1>
+    <h2>제목2</h2>
+    <h3>제목3</h3>    
+    <h4>제목4</h4>
+    <h5>제목5</h5>
+    <h6>제목6</h6>
+    <p>단락<br>형성</p>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique neque, beatae quibusdam delectus impedit, facilis eum quis fugiat recusandae tempore nemo dolorum repellendus veniam, fugit ab. Repellat debitis, expedita.
+    </div>
+    <ul>
+        <li>리스트1</li>
+        <li>리스트1</li>
+        <li>리스트1</li>
+    </ul>
+    
+    <div class="box">박스1</div>
+    <div class="box">박스2</div>
+    <div class="box">박스3</div>
+    
+    <!--인라인 속성-->
+    <p>인라인 속성은 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치 된다.
+    대표적인 inline엘리먼트로 <span style="background: yellow">영역묶기</span> <a href="#">링크걸기</a> <b>강조글자</b>등이 있다.</p>
+    <span class="change">그러면 inline 요소를 blokc요소로 변경해볼까요</span>
+</body>
+</html>
